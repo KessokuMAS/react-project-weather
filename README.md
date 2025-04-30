@@ -13,4 +13,4 @@ CRUD·무한스크롤을 효율적으로 다룬 React 프로젝트
 상점 시스템 :  보유한 포인트로 상품을 구매할 수 있게 해주는 심플한 포인트 샵 시스템.
 
 # 플로우 차트
-https://github.com/KessokuMAS/react-project-weather/issues/1#issue-3030182771
+![Image](https://github.com/user-attachments/assets/7ed4ee60-0353-4eb2-a79c-a143965b1ca3)
