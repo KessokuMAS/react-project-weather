@@ -1,0 +1,145 @@
+.PollBlock {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 12px 1rem 10px;
+  height: auto;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background: #f1f3f5;
+}
+
+.PollTitle {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.PollSubtitle {
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.PollTimeInfo {
+  margin: 10px 0;
+  color: #777;
+}
+
+.RegionContainer {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-image: url("../Images/KoreaMapImage.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.RegionButton {
+  position: absolute;
+  background: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 3px 6px;
+  font-size: 12px;
+  cursor: pointer;
+
+  &.selected {
+    background: #0288d1;
+    color: #fff;
+  }
+}
+
+.SelectedRegion {
+  font-size: 1.2rem;
+  margin: 16px 0;
+}
+
+.Message {
+  margin-bottom: 1rem;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  max-width: 400px;
+  text-align: center;
+
+  &.error {
+    color: #c62828;
+    background-color: #ffebee;
+  }
+
+  &.success {
+    color: #2e7d32;
+    background-color: #e8f5e9;
+  }
+}
+
+.WeatherForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.WeatherOption {
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 14px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+
+  &.selected {
+    border-color: #0288d1;
+    background-color: #e0f7fa;
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+  }
+}
+
+.VoteButton {
+  padding: 12px 26px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  background-color: #0288d1;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+
+  &.disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+  }
+}
+
+.VoteResults {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.VoteResultItem {
+  list-style: none;
+  padding: 0;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+}
