@@ -20,22 +20,22 @@ CRUD·무한스크롤을 효율적으로 다룬 React 프로젝트
 ![Image](https://github.com/user-attachments/assets/4868dc5a-f92e-4694-bf06-c4f30de6025a)
 
 # 결과 화면
-### - 메인 페이지
+### <li>메인 페이지
   
 ![Image](https://github.com/user-attachments/assets/57cc1985-ea3e-4a97-89c4-8ac4b698811f)
 
-### - 투표 페이지
+### <li>투표 페이지
   
 ![Image](https://github.com/user-attachments/assets/65925ce7-15fc-4552-8307-334e9c647377)
 
-### - 게시판 페이지
+### <li>게시판 페이지
   
 ![Image](https://github.com/user-attachments/assets/208b93eb-355c-4e44-bd40-d1e3ed65fae9)
 
-### - 쇼핑 페이지
+### <li>쇼핑 페이지
   
 ![Image](https://github.com/user-attachments/assets/172929ed-0444-4d5c-9522-a1831e127116)
 
-### - NotFound 페이지
+### <li>NotFound 페이지
   
 ![Image](https://github.com/user-attachments/assets/4810904c-02aa-4791-8270-20bef41b05df)
