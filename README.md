@@ -1,3 +1,5 @@
+![header](https://capsule-render.vercel.app/api?type=soft&color=auto&text=React%20Project&fontSize=40&animation=twinkling)
+
 # 개인 프로젝트
 날씨 정보 기반 SPA 구현
 
