@@ -15,4 +15,6 @@ CRUD·무한스크롤을 효율적으로 다룬 React 프로젝트
 
 
 # 플로우 차트
-![Image](https://github.com/user-attachments/assets/7ed4ee60-0353-4eb2-a79c-a143965b1ca3)
+![Image](https://github.com/user-attachments/assets/4868dc5a-f92e-4694-bf06-c4f30de6025a)
+
+# 결과 화면
